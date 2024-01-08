@@ -65,6 +65,11 @@ To swap out the error message that occurs when an availability check fails you c
 ```
 
 ## Custom Styles
+### Custom Stylesheet
+You can develop your own stylesheet with relative ease as each module's elements are very simple to identify with their id's for example the button in the search
+uses the id "broadband-availability-search-submit" and the input box uses "broadband-availability-search-input".
+You can use the style template file used by this library [here](Templates/Styles.sbn) as a reference on development
+
 ### Using Style Configuration
 You can use the SearchStyleSettings and ResultsStyleSettings classes to edit the colour schemes of the search and results modules.
 The example below shows using this to make the search button a red to green fade and the background of the results fields blue.
@@ -125,8 +130,3 @@ Currently the rgb, rgba, hex, hsl, hsla, CIELab, and xyz colour formats are supp
 * **HeadBorderColour** : colour of the border of the head of the address table
 * **FilterBoxBorderColour** : colour of the border of the filter/search box
 * **FilterBoxHoverFadeColour** : colour of filter box when pressed down. Repeat the process with this
-
-### Custom Stylesheet
-You can develop your own stylesheet with relative ease as each module's elements are very simple to identify with their id's for example the button in the search
-uses the id "broadband-availability-search-submit" and the input box uses "broadband-availability-search-input".
-You can use the style template file used by this library [here](Templates/Styles.sbn) as a reference
