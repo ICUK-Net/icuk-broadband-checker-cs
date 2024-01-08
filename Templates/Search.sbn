@@ -1,0 +1,6 @@
+﻿<div id="broadband-availability-search" broadband-availability-id="{{ broadband_availability_id }}">
+	<input id="broadband-availability-search-input"/>
+	<button id="broadband-availability-search-submit" onclick="cli_or_postcode('{{ broadband_availability_id }}', '{{ broadband_availability_path }}')">Check Availability</button>
+	<br/>
+	<a id="broadband-availability-search-error" style="display: none;">{{ broadband_availability_error_message }}</a>
+</div>

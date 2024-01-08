@@ -1,0 +1,14 @@
+﻿<table id="broadband-availability-address-list" broadband-availability-id="{{ broadband_availability_id }}">
+	<thead id="broadband-availability-address-head">
+		<tr>
+			<th style="width: 5%;">
+
+			</th>
+			<th>
+				<input type="text" placeholder="Filter" id="broadband-availability-address-filter" onkeyup="filterAddressList('{{ broadband_availability_id }}')">
+			</th>
+		</tr>
+	</thead>
+	<tbody id="broadband-availability-address-body">
+	</tbody>
+</table>
