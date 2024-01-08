@@ -20,7 +20,7 @@ An example application has been included below using ASP.net Razor Pages
 This file will allow the user to make requests to the broadband availability api. You should in this format but substitute the credentials with your own and
 you can and should use your own method of authentication beforehand to prevent unauthorised access to the endpoint.
 
-```cshtml
+```csharp
 @page
 @model ApiModel
 @{
@@ -39,7 +39,7 @@ The /ApiProxy endpoint is purely an example and that should just be a path to yo
 The RenderStyles line is also optional and you can apply your own stylesheet to the table, it also important to note that the results
 panel will not appear until a search takes place.
 
-```cshtml
+```csharp
 @page
 @model IndexModel
 @{
@@ -60,7 +60,7 @@ panel will not appear until a search takes place.
 
 ### Edit error message
 To swap out the error message that occurs when an availability check fails you can use the error message as a parameter of render_search
-```cshtml
+```csharp
 @Html.Raw(checker.RenderSearch("/ApiProxy", "Example Error!"))
 ```
 
